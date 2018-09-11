@@ -14,7 +14,7 @@
 	<!-- The application should match the theme folder to ensure it is unique -->
 	<application>ufrn-theme</application>
 	<type>plugins.themes</type>
-	<release>0.9.0.5</release>
+	<release>0.9.2.0</release>
 	<date>2018-08-3</date>
 	<!-- This should always be 0 -->
 	<lazy-load>0</lazy-load>
