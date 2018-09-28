@@ -17,7 +17,7 @@ import ('classes.journal.JournalDAO');
 class JournalUfrnDAO extends JournalDAO {
 
     public function getJournalsByPath($paths) {
-		$query = "SELECT * FROM " . $this->_getTableName(). " WHERE path IN ('". implode("','", $paths) ."')";
+		$query = "SELECT * FROM " . $this->_getTableName(). " WHERE path IN ('". implode("','", $paths) ."') ORDER BY seq";
 
 		$result = $this->retrieve($query);
 
